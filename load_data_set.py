@@ -81,7 +81,7 @@ def load_moroco_data_set():
 
     test_ids, test_samples, test_dialect_labels, test_category_labels = load_moroco_data_samples("test")
     print("Loaded %d test samples..." % len(test_samples))
-    test_list = [test_ids, validation_samples, validation_dialect_labels, validation_category_labels]
+    test_list = [test_ids, test_samples, test_dialect_labels, test_category_labels]
     return train_list, validation_list, test_list
 
     # The MOROCO data set is now loaded in the memory.
